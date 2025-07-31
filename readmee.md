@@ -1,3 +1,5 @@
+The attached example will mount scripts into a local directory within the Kubernetes job at the path /data/configs. In this case, it's important to include shell instructions in the job's entrypoint (containers.command section) to copy the contents of this directory into the NiFi volume designated for scripts.
+
 1. Architecture & Déploiement
 
     Mode d’installation
